@@ -111,7 +111,30 @@ img {
     margin-top: 10px;
     display: block;
 }
-
+.carrusel-css{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.carrusel-slide {
+    display: flex;
+    width: 300%;
+    animation: cambiarFoto 12s infinite;
+}
+.carrusel-slide img {
+    width: 33.33%;
+    height:250px;
+    object-fit: cover;
+    margin-top: 0;
+}
+@keyframes cambiarFoto {
+    0%,28% { transform: translateX(0); }
+    33%,61%{ transform: translateX(-33.33%); }
+    66%,94%{ transform: translateX(-66.66%); }
+    100% { transform: translateX(0); }
+}
 /* 4. Formularios (config.html y minombre.html) */
 .form-configuration {
     display: flex;
