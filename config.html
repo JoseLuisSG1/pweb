@@ -108,8 +108,8 @@
        const inputMin=document.getElementById("temp-min");
        const outputDiferencia=document.getElementById("diferencia-temp");
         function validar(){
-            inputMax.setCustomValidity(inputMax.value<inputMin.value?'La temperatura máxima debe ser mayor o igual que la mínima': ''); 
-            outputDiferencia.value=inputMax.checkValidity() && inputMin.checkValidity() ? (inputMax.value - inputMin.value) + 'ºC' : 'Error en los valores';
+            inputMax.setCustomValidity(parseFloat(inputMax.value) < parseFloat(inputMin.value) ? 'La temperatura máxima debe ser mayor o igual que la mínima' : ''); 
+            outputDiferencia.value=inputMax.checkValidity() && inputMin.checkValidity() ? (parseFloat(inputMax.value) - parseFloat(inputMin.value)) + 'ºC' : 'Error en los valores';
         }
         inputMax.oninput=validar;
         inputMin.oninput=validar;
