@@ -104,9 +104,9 @@
         <p><strong>Universidad de Alcalá</strong></p>
     </footer>
     <script>
-       const inputMax=document.getAnimationsByName("temp-max");
-       const inputMin=document.getAnimationsByName("temp-min");
-       const outputDiferencia=document.getAnimationsByName("diferencia-temp");
+       const inputMax=document.getElementById("temp-max");
+       const inputMin=document.getElementById("temp-min");
+       const outputDiferencia=document.getElementById("diferencia-temp");
         function validar(){
             inputMax.setCustomValidity(inputMax.value<inputMin.value?'La temperatura máxima debe ser mayor o igual que la mínima': ''); 
             outputDiferencia.value=inputMax.checkValidity() && inputMin.checkValidity() ? (inputMax.value - inputMin.value) + 'ºC' : 'Error en los valores';
