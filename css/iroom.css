@@ -1,8 +1,4 @@
-/* ==========================================================================
-   HOJA DE ESTILOS: iroom.css (Smart Room Project)
-   ========================================================================== */
-
-/* Estilos Generales / Reset básico */
+/* Estilos Generales */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +15,7 @@ body {
     padding: 15px;
 }
 
-/* 1. Header */
+/*header */
 header, h1 {
     text-align: center;
     background-color: #1e3a8a;
@@ -29,7 +25,7 @@ header, h1 {
     margin-bottom: 15px;
 }
 
-/* 2. Barra de menú e Información (<nav> y <aside>) */
+/* barra menu*/
 .barra-superior, .barra-menu {
     display: flex;
     justify-content: space-between;
@@ -67,7 +63,7 @@ nav ul li a:hover {
     border-radius: 4px;
 }
 
-/* 3. Estructura principal en 2 columnas (Desk / Pantallas grandes) */
+/*estructura principal*/
 main {
     display: flex;
     flex-wrap: wrap;
@@ -203,9 +199,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ==========================================================================
-   DISEÑO RESPONSIVE (Móviles / Pantallas pequeñas < 768px)
-   ========================================================================== */
+/*diseño movil*/
 @media (max-width: 768px) {
     .barra-superior, .barra-menu {
         flex-direction: column;
