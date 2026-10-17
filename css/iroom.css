@@ -88,3 +88,9 @@ footer{
     100% {transform: translateX(0);}
 
 }
+.form-configuration{
+    display: flex;
+    flex:1;
+    width: 100%;
+    gap: 20px;
+}
