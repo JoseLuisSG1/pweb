@@ -106,3 +106,8 @@ footer{
     padding: 8px;
     font-size: 15px;
 }
+.button{
+    border-radius: 5px;
+    width: 50px;
+    font-size: 15px;
+}
