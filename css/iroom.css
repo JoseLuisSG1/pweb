@@ -44,6 +44,7 @@ nav a{
     float: right;
     font-weight: bold;
     color: #ffffff;
+    display: inline;
 }
 main{
     margin-top: 20px;
