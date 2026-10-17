@@ -5,6 +5,19 @@ body {
     background-color: #f0f0f0;
     color:#333333;
 }
-h1, h2, h3 {
+header , h1 {
     color: #003366;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align:center;
+}
+h2 , h3{
+    color:#5F9EA0;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.barra-menu{
+    background-color: #003366;
+    border-radius: 5px;
+    padding: 10px;
 }
