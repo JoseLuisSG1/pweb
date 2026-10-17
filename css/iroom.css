@@ -31,3 +31,7 @@ nav ul{
 nav li{
     margin-right: 15px;
 }
+nav a{
+    color: #0066cc;
+    text-decoration: none;
+}
