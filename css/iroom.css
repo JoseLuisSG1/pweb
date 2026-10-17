@@ -37,7 +37,7 @@ nav a{
 }
 #info-usuario{
     display: block;
-    text-align: center;
+    text-align: right;
     margin-top: 10px;
     font-size: 1.2em;
     color: #333;
