@@ -16,12 +16,12 @@ h2 , h3{
     background-color: #6495ed;
     border-radius: 5px;
     padding: 12px 15px;
-    overflow: hidden;
 }
 .barra-menu{
     background-color: #003366;
     border-radius: 5px;
     padding: 10px;
+    display: flex;s
 }
 nav ul{
     list-style-type: none;
