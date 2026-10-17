@@ -101,4 +101,6 @@ footer{
 }
 #form-nombre{
     margin-top: 20px;
+    border-radius: 5px;
+    width: 250px;
 }
