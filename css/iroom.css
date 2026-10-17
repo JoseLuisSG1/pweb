@@ -14,6 +14,7 @@ header , h1 {
 h2 , h3{
     color:#5F9EA0;
     background-color: #6495ed;
+    border-radius: 5px;
     padding: 10px;
 }
 .barra-menu{
