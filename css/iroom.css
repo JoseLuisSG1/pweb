@@ -76,6 +76,7 @@ footer{
 .carrusel-slide img{
     display: flex;
     width: 300px;
+    object-fit: cover;
     animation: cambiarFoto 12s infinite;
 }
 @keyframes cambiarFoto{
