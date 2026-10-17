@@ -46,7 +46,7 @@
       }
       formNombre.onsubmit=function(event){
         event.preventDefault();
-        const nuevoNombre=inputNombre.value.trim();
+        const nuevoNombre=inputNombre.value;
         if(nuevoNombre){
             localStorage.setItem('fname',nuevoNombre);
             alert('Nombre guardado correctamente');
