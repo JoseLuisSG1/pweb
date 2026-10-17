@@ -16,9 +16,6 @@
             <li><a href="minombre.html">Nombre</a></li>
             </ul>
         </nav>
-        <aside id="info-usuario">
-           <!-- <p>Usuario:<span class="usuario-nombre"></span>invitado</p> -->
-        </aside>   
     </div>
     <main>
         <form action="datos.js" method="post" class="form-configuration">
@@ -108,8 +105,17 @@
        const inputMin=document.getElementById("temp-min");
        const outputDiferencia=document.getElementById("diferencia-temp");
         function validar(){
-            inputMax.setCustomValidity(parseFloat(inputMax.value) < parseFloat(inputMin.value) ? 'La temperatura máxima debe ser mayor o igual que la mínima' : ''); 
-            outputDiferencia.value=inputMax.checkValidity() && inputMin.checkValidity() ? (parseFloat(inputMax.value) - parseFloat(inputMin.value)) + 'ºC' : 'Error en los valores';
+            const min=parseFloat(inputMin.value);
+            const max=parseFloat(inputMax.value);
+            if(min< -20 || min> 45 || max< -20 || max>45){
+                outputDiferencia.value="Los valores deben de estar entre -20 y 45 ºC";
+                return;
+            }
+            if(min>max){
+                outputDiferencia.value="La temperatura mínima no puede ser mayor que la máxima";
+                return;
+            }
+            outputDiferencia.value=(max-min)+"ºC";
         }
         inputMax.oninput=validar;
         inputMin.oninput=validar;
