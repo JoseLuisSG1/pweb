@@ -122,3 +122,24 @@ button{
     margin-bottom: 8px;
     display: inline-block;
 }
+@media(max-width: 768px){
+    .barra-menu {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    main {
+        flex-direction: column;
+    }
+    section {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .caja-input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
