@@ -67,3 +67,21 @@ footer{
     background-color: #333333;
     color: #ffffff;
 }
+.carrusel-css{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.carrusel-slide img{
+    display: flex;
+    width: 300px;
+    animation: cambiarFoto 12s infinite;
+}
+@keyframes cambiarFoto{
+    0%,28% {transform: translateX(0);}
+    30%,50% {transform: translateX(-33.33%);}
+    55%,75% {transform: translateX(-66.66%);}
+    100% {transform: translateX(0);}
+
+}
