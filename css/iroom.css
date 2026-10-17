@@ -21,7 +21,8 @@ h2 , h3{
     background-color: #003366;
     border-radius: 5px;
     padding: 10px;
-    display: flex;s
+    display: flex;
+    justify-content: space-between;
 }
 nav ul{
     list-style-type: none;
