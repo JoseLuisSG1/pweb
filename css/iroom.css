@@ -29,6 +29,7 @@ nav ul{
     justify-content: center;
 }
 nav li{
+    display: inline;
     margin-right: 15px;
 }
 nav a{
