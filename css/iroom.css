@@ -54,6 +54,7 @@ section{
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
+    flex: 1;
 }
 footer{
     text-align: center;
