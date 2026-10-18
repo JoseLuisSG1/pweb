@@ -79,17 +79,15 @@ footer{
 }
 .carrusel-slide{
     position: relative;
-    width: 100%;
+    width: 300%;
     height: 100%;
+    animation: cambiarFoto 12s infinite;
 }
 .carrusel-slide img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    position: static;
+    width: 33.33%;
     height: 100%;
     object-fit: cover;
-    animation: cambiarFoto 12s infinite;
 }
 @keyframes cambiarFoto{
     0%,28% {transform: translateX(0);}
