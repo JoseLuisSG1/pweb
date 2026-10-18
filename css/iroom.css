@@ -81,7 +81,7 @@ footer{
     height: 100%;
 }
 .carrusel-slide img{
-    display: flex;
+    position: absolute;
     width: 33.33%;
     object-fit: cover;
     animation: cambiarFoto 12s infinite;
