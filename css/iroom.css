@@ -78,6 +78,7 @@ footer{
     display: flex;
     width: 33.33%;
     object-fit: cover;
+    opacity: 0;
     animation: cambiarFoto 12s infinite;
 }
 @keyframes cambiarFoto{
