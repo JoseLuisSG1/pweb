@@ -78,14 +78,13 @@ footer{
 .carrusel-slide img{
     display: flex;
     width: 33.33%;
-    height: 250px;
     object-fit: cover;
     animation: cambiarFoto 12s infinite;
 }
 @keyframes cambiarFoto{
     0%,28% {transform: translateX(0);}
-    30%,50% {transform: translateX(-33.33%);}
-    55%,75% {transform: translateX(-66.66%);}
+    33%,61% {transform: translateX(-33.33%);}
+    66%,94% {transform: translateX(-66.66%);}
     100% {transform: translateX(0);}
 
 }
