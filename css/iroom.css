@@ -73,6 +73,7 @@ footer{
     overflow: hidden;
     border-radius: 5px;
     margin-top: 15px;
+    position:relative;
 }
 .carrusel-slide img{
     display: flex;
